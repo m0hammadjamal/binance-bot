@@ -6,7 +6,7 @@ import logging
 from datetime import datetime, timedelta
 
 # Load API keys from key.env file
-load_dotenv(dotenv_path='key.env')
+load_dotenv(dotenv_path='.env')
 
 api_key = os.getenv('BINANCE_API_KEY')
 api_secret = os.getenv('BINANCE_API_SECRET')
